@@ -1,0 +1,281 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f6f8;
+    color: #202124;
+}
+
+/* Header */
+
+.topbar {
+    background: #ffffff;
+    border-bottom: 1px solid #e1e4e8;
+    padding: 18px 30px;
+}
+
+.brand {
+    max-width: 920px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.brand-mark {
+    width: 42px;
+    height: 42px;
+    background: #005da6;
+    color: white;
+    border-radius: 7px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 700;
+}
+
+.brand-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.brand-subtitle {
+    font-size: 12px;
+    color: #6a737d;
+    margin-top: 2px;
+}
+
+
+/* Main */
+
+main {
+    padding: 55px 20px;
+}
+
+.signing-container {
+    max-width: 620px;
+    margin: auto;
+    background: #ffffff;
+
+    border-radius: 12px;
+
+    padding: 42px;
+
+    box-shadow:
+        0 4px 18px rgba(0,0,0,0.08);
+
+    text-align: center;
+}
+
+.status-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+    background: #e8f3fb;
+    color: #005da6;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto 20px;
+
+    font-size: 28px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 27px;
+}
+
+.intro {
+    color: #606770;
+    margin: 12px 0 28px;
+    line-height: 1.5;
+}
+
+
+/* Document */
+
+.document-card {
+    border: 1px solid #dfe3e8;
+    border-radius: 8px;
+
+    padding: 18px;
+
+    display: flex;
+    align-items: center;
+
+    text-align: left;
+
+    margin-bottom: 32px;
+
+    background: #fafbfc;
+}
+
+.document-icon {
+    width: 48px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #c62828;
+    color: #ffffff;
+
+    border-radius: 5px;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    margin-right: 16px;
+}
+
+.document-details {
+    overflow: hidden;
+}
+
+.label {
+    display: block;
+
+    font-size: 11px;
+    color: #6b7280;
+
+    letter-spacing: .7px;
+
+    margin-bottom: 5px;
+}
+
+.document-name {
+    font-weight: 600;
+
+    overflow-wrap: anywhere;
+}
+
+
+/* Verification */
+
+.verification-section {
+    border-top: 1px solid #eceff1;
+    padding-top: 28px;
+}
+
+.verification-section h2 {
+    font-size: 20px;
+}
+
+.verification-section p {
+    color: #606770;
+    line-height: 1.5;
+}
+
+.recipient {
+    margin: 24px 0;
+    background: #f7f9fb;
+    padding: 16px;
+    border-radius: 7px;
+}
+
+#signerEmail {
+    font-weight: 600;
+}
+
+
+/* Button */
+
+button {
+    width: 100%;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #0067b8;
+    color: white;
+
+    padding: 14px;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #005a9e;
+}
+
+button:disabled {
+    background: #a0a0a0;
+    cursor: default;
+}
+
+
+/* Messages */
+
+.security-info {
+    margin-top: 28px;
+    color: #687078;
+    font-size: 12px;
+}
+
+.error-box {
+    margin-top: 20px;
+
+    padding: 14px;
+
+    border-radius: 6px;
+
+    background: #fde7e9;
+    color: #a4262c;
+
+    font-size: 14px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+
+    color: #70757a;
+
+    font-size: 12px;
+
+    padding: 10px 20px 35px;
+}
+
+.footer-small {
+    font-size: 11px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    main {
+        padding: 25px 12px;
+    }
+
+    .signing-container {
+        padding: 28px 20px;
+    }
+
+    .topbar {
+        padding: 14px 18px;
+    }
+
+}

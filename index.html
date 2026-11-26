@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document Signing</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="topbar">
+        <div class="brand">
+            <div class="brand-mark">DS</div>
+
+            <div>
+                <div class="brand-title">Document Signing</div>
+                <div class="brand-subtitle">Secure Electronic Signature</div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+
+        <div class="signing-container">
+
+            <div class="status-icon">
+                ✓
+            </div>
+
+            <h1>Document Signing</h1>
+
+            <p class="intro">
+                A document has been sent to you for electronic signature.
+            </p>
+
+
+            <div class="document-card">
+
+                <div class="document-icon">
+                    PDF
+                </div>
+
+                <div class="document-details">
+
+                    <span class="label">
+                        DOCUMENT
+                    </span>
+
+                    <div id="documentName" class="document-name">
+                        Loading document...
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="verification-section">
+
+                <h2>Verify your identity</h2>
+
+                <p>
+                    Before you can review and sign this document,
+                    we need to verify your email address.
+                </p>
+
+
+                <div class="recipient">
+
+                    <span class="label">
+                        SIGNING REQUEST SENT TO
+                    </span>
+
+                    <div id="signerEmail">
+                        Email address will be verified securely
+                    </div>
+
+                </div>
+
+
+                <button id="verifyButton" type="button">
+                    Send Verification Code
+                </button>
+
+            </div>
+
+
+            <div id="errorBox" class="error-box hidden">
+                This signing link is invalid.
+            </div>
+
+
+            <div class="security-info">
+                🔒 Your connection to this signing service is secured using HTTPS.
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            Document Signing Service
+        </p>
+
+        <p class="footer-small">
+            Do not forward this signing link to another person.
+        </p>
+
+    </footer>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
