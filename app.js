@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     // Power Automate lookup endpoint
     // --------------------------------------------------
 
-    const LOOKUP_API = "https://default2aff9a6f941d427ebc3e6b8404db8d.2d.environment.api.powerplatform.com:443/powerautomate/automations/direct/cu/09/workflows/f7768c76be35444b8d6fc50c9756552c/triggers/manual/paths/invoke?api-version=1";
+    const LOOKUP_API = "https://default2aff9a6f941d427ebc3e6b8404db8d.2d.environment.api.powerplatform.com:443/powerautomate/automations/direct/cu/09/workflows/f7768c76be35444b8d6fc50c9756552c/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=qIal2Z5iIRrUbNLCDPDwr48xJosQe1HXJfx9J9QtB3Q";
 
 
     // --------------------------------------------------
